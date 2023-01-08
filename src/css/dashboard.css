@@ -1,0 +1,80 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 27rem;
+    background-color: whitesmoke;
+    margin: 2rem;
+    border-radius: 50px;
+  }
+  .text {
+    text-decoration: none !important;
+    color: inherit;
+  }
+  .content {
+    width: 20rem;
+  }
+  .content h2 {
+    text-transform: uppercase;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  .content span {
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    color: indigo;
+  }
+  .content p {
+    padding-left: 1rem;
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.8em;
+  }
+  .profile {
+    max-width: 20rem;
+    width: 95%;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .profile span {
+    color: skyblue;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+  }
+  .name {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .isfavourite {
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    transition: 0.5s;
+  }
+  
+  .isfavourite .MuiSvgIcon-root {
+    font-size: 18px;
+    color: #ff000088;
+  }
+  
+  .isfavourite.active .MuiSvgIcon-root {
+    color: #ff0000;
+    filter: drop-shadow(0px 0px 8px #ff0000);
+  }
+  
