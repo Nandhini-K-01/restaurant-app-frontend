@@ -122,7 +122,7 @@ function Register() {
                                 <a class="small" href="forgot-password.html">Forgot Password?</a>
                             </div> */}
                 <div class="text-center">
-                  <Link class="small" to="/signin">
+                  <Link class="small" to="/">
                     Already have an account? Login!
                   </Link>
                 </div>
