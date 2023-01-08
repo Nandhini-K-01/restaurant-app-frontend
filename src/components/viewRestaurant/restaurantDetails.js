@@ -32,7 +32,7 @@ function RestaurantDetails() {
         navigate("/");
       } else {
         const res = await axios
-          .get(`http://localhost:4000/restaurant/get/${resid.id}`, {
+          .get(`https://simplerestaurant.onrender.com/restaurant/get/${resid.id}`, {
             headers: { accesstoken: localStorage.getItem("token") },
           })
           .then((res) => {
