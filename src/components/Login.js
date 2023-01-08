@@ -97,7 +97,9 @@ function LoginComponent() {
                         onClick={handleSignIn}
                       >
                         Login
-                      </Link>
+                      </Link><br/>
+                      Demo Credentials to add restaurant:<br/>
+                      admin@gmail.com, Welcome123
                       <hr />
                       <a
                         href="index.html"
