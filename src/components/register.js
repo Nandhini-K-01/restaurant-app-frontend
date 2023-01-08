@@ -18,7 +18,7 @@ function Register() {
       //   setLoading(false);
     }
     try {
-      var response = await axios.post("http://localhost:4000/register/signup", {
+      var response = await axios.post("https://simplerestaurant.onrender.com/register/signup", {
         Username: username,
         email: email,
         password: password,
