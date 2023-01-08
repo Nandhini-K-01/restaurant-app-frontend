@@ -19,7 +19,7 @@ function LoginComponent() {
       //   setLoading(false);
     }
     try {
-      var response = await axios.post("http://localhost:4000/register/signin", {
+      var response = await axios.post("https://simplerestaurant.onrender.com/register/signin", {
         email: email,
         password: password,
       });
