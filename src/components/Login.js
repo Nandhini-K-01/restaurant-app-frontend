@@ -43,7 +43,7 @@ function LoginComponent() {
               <div class="row">
                 <div class="col-lg-6 d-none d-lg-block bg-login-image">
                   <img
-                    style={{ height: "595px", width: "500px" }}
+                    style={{ height: "650px", width: "500px" }}
                     src="https://assets.gqindia.com/photos/5cdc74897813c415f22fc949/master/pass/cafe-mozaic.png"
                   ></img>
                 </div>
