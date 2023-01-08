@@ -34,7 +34,7 @@ function Dashboard() {
         navigate("/");
       } else {
         const res = await axios
-          .get("http://localhost:4000/restaurant/get", {
+          .get("https://simplerestaurant.onrender.com/restaurant/get", {
             headers: { accesstoken: localStorage.getItem("token") },
           })
           .then((res) => {
